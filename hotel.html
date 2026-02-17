@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grand Palatial - Luxury 5-Star Hotel</title>
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-crown"></i> The Grand Palatial
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#restaurant">Restaurant</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>The Grand Palatial</h1>
+            <p>Experience Unparalleled Luxury & Elegance</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <h3>⭐ 5-Star</h3>
+                    <p>Luxury Rated</p>
+                </div>
+                <div class="stat">
+                    <h3>🏆 Award</h3>
+                    <p>Winner 2025</p>
+                </div>
+                <div class="stat">
+                    <h3>👥 5000+</h3>
+                    <p>Happy Guests</p>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-lg">Book Your Luxury Suite</button>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+        <div class="container">
+            <h2>Welcome to Opulence</h2>
+            <p>Step into a world where elegance meets sophistication. The Grand Palatial is a sanctuary of luxury, offering world-class amenities, impeccable service, and unforgettable experiences for the most discerning travelers.</p>
+            <div class="welcome-features">
+                <div class="feature-item">
+                    <i class="fas fa-gem"></i>
+                    <h3>Premium Suites</h3>
+                    <p>Handcrafted luxury with marble, crystal, and gold finishes</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Michelin Cuisine</h3>
+                    <p>World-class dining from renowned international chefs</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-spa"></i>
+                    <h3>Wellness Spa</h3>
+                    <p>Rejuvenating treatments with premium products</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Concierge 24/7</h3>
+                    <p>Personal service available round the clock</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2>Exquisite Rooms & Suites</h2>
+            <p class="section-subtitle">Each room is a masterpiece of design and comfort</p>
+            
+            <div class="rooms-grid">
+                <!-- Deluxe Room -->
+                <div class="room-card luxury-room">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&h=400&fit=crop" alt="Deluxe Room">
+                        <div class="room-badge">Deluxe</div>
+                    </div>
+                    <div class="room-details">
+                        <h3>Deluxe Room</h3>
+                        <p class="room-description">Elegantly appointed with premium furnishings, marble bathroom, and city views</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-bed"></i> King Bed</span>
+                            <span><i class="fas fa-bath"></i> Marble Bath</span>
+                            <span><i class="fas fa-wifi"></i> High-Speed WiFi</span>
+                        </div>
+                        <p class="price">$250 <span>/night</span></p>
+                        <button class="btn btn-secondary">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Executive Suite -->
+                <div class="room-card luxury-room featured">
+                    <div class="room-image">
+                        <img src="img2.jpeg" alt="Executive Suite">
+                        <div class="room-badge premium">Executive</div>
+                    </div>
+                    <div class="room-details">
+                        <h3>Executive Suite</h3>
+                        <p class="room-description">Spacious suite with living area, luxury bathroom, and panoramic views</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-crown"></i> Premium Service</span>
+                            <span><i class="fas fa-champagne-glass"></i> Complimentary Champagne</span>
+                            <span><i class="fas fa-key"></i> Priority Check-in</span>
+                        </div>
+                        <p class="price">$450 <span>/night</span></p>
+                        <button class="btn btn-secondary">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Royal Penthouse -->
+                <div class="room-card luxury-room">
+                    <div class="room-image">
+                        <img src="img3.jpeg" alt="Royal Penthouse">
+                        <div class="room-badge ultimate">Royal</div>
+                    </div>
+                    <div class="room-details">
+                        <h3>Royal Penthouse</h3>
+                        <p class="room-description">Ultimate luxury with 3 bedrooms, private terrace, and 360-degree city views</p>
+                        <div class="room-features">
+                            <span><i class="fas fa-crown"></i> Personal Butler</span>
+                            <span><i class="fas fa-skyatlas"></i> Private Terrace</span>
+                            <span><i class="fas fa-wine-glass"></i> Wine Cellar</span>
+                        </div>
+                        <p class="price">$999 <span>/night</span></p>
+                        <button class="btn btn-secondary">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Hero Section -->
+    <section id="restaurant" class="restaurant-hero">
+        <div class="container hero-split-container">
+            <!-- Left Side - Text Content -->
+            <div class="hero-split-content">
+                <div class="hero-split-label">
+                    <span>Fine Dining Experience</span>
+                </div>
+                
+                <h1 class="hero-split-heading">
+                    Culinary <span class="highlight">Excellence</span>
+                </h1>
+                
+                <p class="hero-split-description">
+                    Indulge in an extraordinary gastronomic journey where masterful chefs craft exquisite dishes using the world's finest ingredients. Every plate is a masterpiece of flavor, artistry, and passion.
+                </p>
+                
+                <div class="hero-split-info">
+                    <div class="info-row">
+                        <i class="far fa-clock"></i>
+                        <div>
+                            <span class="label">Open Daily</span>
+                            <span class="value">7 AM – 11 PM</span>
+                        </div>
+                    </div>
+                    <div class="info-row">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <span class="label">Reservations</span>
+                            <span class="value">+1 (555) 123-4567</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-split-buttons">
+                    <a href="#booking" class="btn-gold">
+                        <i class="fas fa-calendar-alt"></i>
+                        Book a Table
+                    </a>
+                    <a href="#restaurant-menu" class="btn-outline-light">
+                        <i class="fas fa-utensils"></i>
+                        View Menu
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Right Side - Image -->
+            <div class="hero-split-image-wrapper">
+                <img 
+                    src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=1000&fit=crop" 
+                    alt="Exquisite gourmet plated dish - Culinary Excellence"
+                    class="hero-split-image"
+                >
+                <div class="hero-split-image-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Menu Section -->
+    <section id="restaurant-menu" class="restaurant">
+        <div class="container">
+            <h2>The Grand Restaurant</h2>
+            <p class="section-subtitle">Michelin-Recommended Fine Dining Experience</p>
+
+            <!-- Menu Tabs -->
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-tab="breakfast">Breakfast</button>
+                <button class="tab-btn" data-tab="lunch">Lunch</button>
+                <button class="tab-btn" data-tab="dinner">Dinner</button>
+                <button class="tab-btn" data-tab="bar">Bar & Beverages</button>
+            </div>
+
+            <!-- Breakfast Menu -->
+            <div class="menu-content active" id="breakfast">
+                <h3 class="menu-category">Continental Breakfast</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="breakfast1.jpeg" alt="Eggs Benedict">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Royal Eggs Benedict</h4>
+                            <p>Poached eggs, Canadian bacon, hollandaise sauce on English muffin</p>
+                            <p class="menu-price">$24</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300&h=250&fit=crop" alt="Pancakes">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Luxe Pancake Stack</h4>
+                            <p>Fluffy pancakes, Belgian chocolate, fresh berries, maple syrup</p>
+                            <p class="menu-price">$22</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="breakfast3.jpeg" alt="Açai Bowl">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Premium Açai Bowl</h4>
+                            <p>Organic açai, granola, honey, fresh fruits, coconut flakes</p>
+                            <p class="menu-price">$18</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="breakfast4.jpeg" alt="Omelet">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Signature Truffle Omelet</h4>
+                            <p>3-egg omelet with black truffle, gruyère cheese, chives</p>
+                            <p class="menu-price">$28</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=300&h=250&fit=crop" alt="Croissants">
+                        </div>
+                        <div class="menu-info">
+                            <h4>French Croissant Basket</h4>
+                            <p>Butter croissants, pain au chocolat, jam, French butter</p>
+                            <p class="menu-price">$16</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="breakfast6.jpeg" alt="Smoothie">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Detox Green Smoothie</h4>
+                            <p>Organic kale, spinach, apple, ginger, almond milk</p>
+                            <p class="menu-price">$14</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lunch Menu -->
+            <div class="menu-content" id="lunch">
+                <h3 class="menu-category">À La Carte Lunch</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="lunch-1.webp" alt="Caesar Salad">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Caesar Salad Royale</h4>
+                            <p>Crisp romaine, parmesan, anchovy, croutons, aged Caesar dressing</p>
+                            <p class="menu-price">$20</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="lunch2.jpeg" alt="Grilled Fish">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Pan-Seared Sea Bass</h4>
+                            <p>Mediterranean sea bass, lemon beurre blanc, seasonal vegetables</p>
+                            <p class="menu-price">$38</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="lunch 3.webp" alt="Risotto">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Saffron Risotto</h4>
+                            <p>Creamy Arborio rice, saffron, truffle oil, parmesan</p>
+                            <p class="menu-price">$32</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="lunch4.webp" alt="Lobster Tail">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Butter Poached Lobster</h4>
+                            <p>Maine lobster tail, drawn butter, asparagus, hollandaise</p>
+                            <p class="menu-price">$52</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="lunch 5.jpeg" alt="Steak">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Prime Ribeye Steak</h4>
+                            <p>USDA Prime 14oz ribeye, bone marrow butter, truffle fries</p>
+                            <p class="menu-price">$58</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="lunch 6.webp" alt="Duck">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Peking Duck Breast</h4>
+                            <p>Crispy skin duck, cherry gastrique, seasonal vegetables</p>
+                            <p class="menu-price">$45</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dinner Menu -->
+            <div class="menu-content" id="dinner">
+                <h3 class="menu-category">Fine Dining Dinner</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="dinner 1.jpeg" alt="Tasting Menu">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Chef's Tasting Menu</h4>
+                            <p>7-course culinary journey with wine pairing</p>
+                            <p class="menu-price">$150 per person</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="dinner 2.jpg" alt="Foie Gras">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Seared Foie Gras</h4>
+                            <p>Pan-seared foie gras, brioche, fig reduction, aged balsamic</p>
+                            <p class="menu-price">$48</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="dinner 3.jpg" alt="Wagyu">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Japanese A5 Wagyu</h4>
+                            <p>A5 Wagyu beef, truffle demi-glace, seasonal vegetables</p>
+                            <p class="menu-price">$85</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="dinner 4.jpg" alt="Seafood">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Royal Seafood Platter</h4>
+                            <p>Lobster, oysters, shrimp, scallops, champagne sauce</p>
+                            <p class="menu-price">$72</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="dinner 5.jpeg" alt="Lamb">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Rack of Lamb</h4>
+                            <p>New Zealand lamb, rosemary jus, truffle potatoes</p>
+                            <p class="menu-price">$65</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="dinner 6.webp" alt="Chocolate">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Chocolate Indulgence</h4>
+                            <p>Belgium dark chocolate, gold leaf, raspberry coulis</p>
+                            <p class="menu-price">$18</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bar Menu -->
+            <div class="menu-content" id="bar">
+                <h3 class="menu-category">Premium Bar & Beverages</h3>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="bar 1.avif" alt="Champagne">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Dom Pérignon 2012</h4>
+                            <p>Vintage champagne, crisp and elegant notes</p>
+                            <p class="menu-price">$180 per bottle</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="bar 2.jpeg" alt="Wine">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Châteauneuf-du-Pape</h4>
+                            <p>Rich red wine, complex flavors, 2015 vintage</p>
+                            <p class="menu-price">$95 per bottle</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="bar 3.jpeg" alt="Cocktail">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Grand Palatial Martini</h4>
+                            <p>Premium vodka, vermouth, olives, garnished with gold leaf</p>
+                            <p class="menu-price">$22</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="bar 4.webp" alt="Cognac">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Louis XIII Cognac</h4>
+                            <p>Rare cognac, XO vintage, served in crystal</p>
+                            <p class="menu-price">$65 per glass</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="bar 5.webp" alt="Whiskey">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Japanese Hibiki 30</h4>
+                            <p>Premium single malt, smooth and refined</p>
+                            <p class="menu-price">$85 per glass</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-image">
+                            <img src="bar 6.jpeg" alt="Espresso">
+                        </div>
+                        <div class="menu-info">
+                            <h4>Premium Italian Espresso</h4>
+                            <p>Barista-crafted with imported beans, served with gold spoon</p>
+                            <p class="menu-price">$12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <div class="container">
+            <h2>World-Class Amenities</h2>
+            <p class="section-subtitle">Experience the epitome of luxury and comfort</p>
+            
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-swimming-pool"></i>
+                    </div>
+                    <h3>Infinity Pool</h3>
+                    <p>Olympic-sized infinity pool with heated water and rooftop views</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Luxury Spa</h3>
+                    <p>Full-service spa with therapies from around the world</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Fitness Center</h3>
+                    <p>State-of-the-art gym with personal trainers available</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Fine Dining</h3>
+                    <p>Michelin-recommended restaurant with world-class chefs</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-business-time"></i>
+                    </div>
+                    <h3>Business Center</h3>
+                    <p>Fully equipped with latest technology and conference rooms</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Concierge</h3>
+                    <p>Personal concierge service available 24/7</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Valet Parking</h3>
+                    <p>Complimentary valet and limousine service</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>High-Speed WiFi</h3>
+                    <p>Premium internet throughout the entire property</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <h3>Entertainment</h3>
+                    <p>Live music, theater shows, and cultural events</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking">
+        <div class="container">
+            <h2>Reserve Your Luxury Experience</h2>
+            <form class="booking-form" id="bookingForm">
+                <div class="form-group">
+                    <label for="checkin">Check-in Date</label>
+                    <input type="date" id="checkin" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkout">Check-out Date</label>
+                    <input type="date" id="checkout" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+                    <select id="guests" required>
+                        <option value="">Select number of guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5+ Guests</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="room">Room Type</label>
+                    <select id="room" required>
+                        <option value="">Select room type</option>
+                        <option value="deluxe">Deluxe Room - $250/night</option>
+                        <option value="executive">Executive Suite - $450/night</option>
+                        <option value="penthouse">Royal Penthouse - $999/night</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact The Grand Palatial</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Luxury Avenue, Premium City, PC 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>reservations@grandpalatial.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>24/7 Service</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>The Grand Palatial</h4>
+                    <p>Luxury 5-Star Hotel offering unparalleled elegance and service</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#restaurant">Restaurant</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Grand Palatial. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="hotel.js.js"></script>
+</body>
+</html>
